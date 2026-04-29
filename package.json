@@ -5,8 +5,8 @@
   "description": "nodegoat MCP server — query data models, persons and letters via the nodegoat API",
   "type": "module",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
