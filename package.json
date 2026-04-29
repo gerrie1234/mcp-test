@@ -1,0 +1,19 @@
+{
+  "name": "nodegoat-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "nodegoat MCP server — query data models, persons and letters via the nodegoat API",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
